@@ -1,3 +1,17 @@
 body {
-    background-color: rgb(141, 149, 156);
+    background-color: rgb(203, 246, 200);
+}
+
+.horizontal-list {
+    display: flex;
+    list-style-type: none; /* Poistaa luettelon tyylin */
+    padding: 0; /* Poistaa luettelon sisäosien sisennyksen */
+}
+
+.horizontal-list li {
+    margin-right: 100px; /* Lisää tilaa li-elementtien välille */
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0; /* Poistaa oikean marginaalin viimeiseltä li-elementiltä */
 }
