@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-around; /* Tasaa linkit palkin leveyden mukaan */
-    background-color: rgb(203, 246, 200); /* Taustaväri */
+    background-color:  #0d9706/* Taustaväri */
     color: #fff; /* Tekstin väri */
     padding: 10px 0; /* Sisävälistys */
   }
@@ -13,5 +13,6 @@
   }
   
   .navbar a:hover {
-    background-color: #1ca115; /* Vaihda taustaväri hiiren ollessa linkin päällä */
+    background-color:rgb(203, 246, 200); /* Vaihda taustaväri hiiren ollessa linkin päällä */
   }
+  
