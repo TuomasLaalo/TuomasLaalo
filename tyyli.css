@@ -1,17 +1,17 @@
-body {
-    background-color: rgb(203, 246, 200);
-}
-
-.horizontal-list {
+.navbar {
     display: flex;
-    list-style-type: none; /* Poistaa luettelon tyylin */
-    padding: 0; /* Poistaa luettelon sisäosien sisennyksen */
-}
-
-.horizontal-list li {
-    margin-right: 100px; /* Lisää tilaa li-elementtien välille */
-}
-
-.horizontal-list li:last-child {
-    margin-right: 0; /* Poistaa oikean marginaalin viimeiseltä li-elementiltä */
-}
+    justify-content: space-around; /* Tasaa linkit palkin leveyden mukaan */
+    background-color: rgb(203, 246, 200); /* Taustaväri */
+    color: #fff; /* Tekstin väri */
+    padding: 10px 0; /* Sisävälistys */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Poista linkkien alleviivaus */
+    color: inherit; /* Peri tekstiväri */
+    padding: 5px 10px; /* Sisävälistys */
+  }
+  
+  .navbar a:hover {
+    background-color: #0d9706; /* Vaihda taustaväri hiiren ollessa linkin päällä */
+  }
