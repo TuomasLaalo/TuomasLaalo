@@ -1,18 +1,17 @@
 .navbar {
-    display: flex;
-    justify-content: space-around; /* Tasaa linkit palkin leveyden mukaan */
-    background-color:  #0d9706/* Taustaväri */
-    color: #fff; /* Tekstin väri */
-    padding: 10px 0; /* Sisävälistys */
-  }
-  
-  .navbar a {
-    text-decoration: none; /* Poista linkkien alleviivaus */
-    color: inherit; /* Peri tekstiväri */
-    padding: 5px 10px; /* Sisävälistys */
-  }
-  
-  .navbar a:hover {
-    background-color: ; /* Vaihda taustaväri hiiren ollessa linkin päällä */
-  }
-  
+  display: flex;
+  justify-content: space-around; /* Tasaa linkit palkin leveyden mukaan */
+  background-color: rgb(203, 246, 200); /* Taustaväri */
+  color: #fff; /* Tekstin väri */
+  padding: 10px 0; /* Sisävälistys */
+}
+
+.navbar a {
+  text-decoration: none; /* Poista linkkien alleviivaus */
+  color: inherit; /* Peri tekstiväri */
+  padding: 5px 10px; /* Sisävälistys */
+}
+
+.navbar a:hover {
+  background-color: #0d9706; /* Vaihda taustaväri hiiren ollessa linkin päällä */
+}
