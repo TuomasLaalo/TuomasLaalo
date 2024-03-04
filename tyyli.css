@@ -1,17 +1,116 @@
+
 .navbar {
   display: flex;
-  justify-content: space-around; /* Tasaa linkit palkin leveyden mukaan */
-  background-color: rgb(203, 246, 200); /* Taustaväri */
-  color: #fff; /* Tekstin väri */
-  padding: 10px 0; /* Sisävälistys */
+  justify-content: flex-end;
+  background-color: rgb(17, 177, 6);
+  color: #fff;
+  padding: 50px 0;
 }
 
 .navbar a {
-  text-decoration: none; /* Poista linkkien alleviivaus */
-  color: inherit; /* Peri tekstiväri */
-  padding: 5px 10px; /* Sisävälistys */
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 10px;
+  font-size: xx-large;
+  border-radius: 10px;
+}
+
+.navbar a:first-child {
+  margin-right: auto;
 }
 
 .navbar a:hover {
-  background-color: #0d9706; /* Vaihda taustaväri hiiren ollessa linkin päällä */
+  background-color: #505050;
+}
+
+.cta-button {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+
+.center-content-main {
+  text-align: center;
+  margin: 0 auto; /* Aseta marginaali automaattisesti sivun keskelle */
+  background-color: rgb(255, 253, 240); /* Taustaväri */
+  padding: 20px; /* Lisää sisävälistystä sisällön ympärille tarvittaessa */
+}
+
+.content-row {
+  display: flex;
+  max-width: 800;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(255, 253, 240);
+}
+
+.content-row img {
+  border-radius: 10px;
+  
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(17, 177, 6);
+  color: #fff;
+  padding: 50px 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 10px;
+}
+
+.footer a:hover {
+  background-color: #505050;
+}
+
+.facebook-link {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px;
+}
+
+.instagram-link {
+  background-color: #C13584;
+  color: white;
+  padding: 10px;
+}
+
+.youtube-link {
+  background-color: #FF0000;
+  color: white;
+  padding: 10px;
+}
+
+#email-icon,
+#phone-icon,
+#location-icon,
+.ota-yhteyttä {
+  font-size: 24px;
+  color: rgb(17, 177, 6);
+  text-align: center;
+}
+
+.copyright {
+  background-color: #525252; /* Harmaa taustaväri */
+  color: #ffffff; /* Tekstin väri */
+  text-align: center; /* Tekstin keskittäminen */
+  padding: 10px 0; /* Sisävälistys ylä- ja alapuolelle */
+  width: 100%; /* Asettaa leveyden koko ruudun leveydelle */
 }
