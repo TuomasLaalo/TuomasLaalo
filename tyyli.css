@@ -1,7 +1,6 @@
-
 .navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between; /* Aligns items at the start and end of the flex container */
   background-color: rgb(17, 177, 6);
   color: #fff;
   padding: 50px 0;
@@ -15,9 +14,22 @@
   border-radius: 10px;
 }
 
-.navbar a:first-child {
-  margin-right: auto;
+.navbar .first-link {
+  margin-right: auto; /* Pushes the element to the left */
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+  }
+  
+  .navbar .first-link {
+    margin-right: 0; /* Remove margin to reset alignment */
+    margin-bottom: 10px; /* Add space between items in mobile view */
+  }
+}
+
 
 .navbar a:hover {
   background-color: #505050;
