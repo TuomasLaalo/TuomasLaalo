@@ -73,7 +73,6 @@
 
 .center-content-main {
   text-align: center;
-  margin: 0 auto; /* Aseta marginaali automaattisesti sivun keskelle */
   background-color: rgb(255, 253, 240); /* Taustaväri */
   padding: 20px; /* Lisää sisävälistystä sisällön ympärille tarvittaessa */
 }
