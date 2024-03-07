@@ -59,6 +59,11 @@
   margin-left: 10px;
 }
 
+.content-upper {
+  background-color: rgb(255, 253, 240);
+  padding: 50px 0;
+  text-align: center;
+}
 
 .center-content-main {
   text-align: center;
