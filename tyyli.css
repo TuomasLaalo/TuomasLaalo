@@ -49,9 +49,11 @@
 }
 
 #valittu {
-  background-color: 505050; /* Määritellään linkin tekstiväri */
+  background-color: #505050; /* taustaväri */
+  color: white; /* tekstin väri */
   text-decoration: none; /* Poistetaan linkin korostus */
 }
+
 
 
 .cta-button {
