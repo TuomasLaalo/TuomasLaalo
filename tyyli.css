@@ -1,149 +1,98 @@
-/* Yleiset tyylit navigaatiopalkille */
-.navbar {
-  display: flex; /* Käytetään flexboxia */
-  justify-content: flex-end; /* Linkit oikeaan laitaan */
-  background-color: rgb(17, 177, 6); /* Taustaväri */
-  color: #fff; /* Tekstin väri */
-  padding: 50px 0; /* Sisävälistys */
-}
 
-/* Linkkien tyyli navigaatiopalkissa */
-.navbar a {
-  text-decoration: none; /* Poistetaan korostus */
-  color: inherit; /* Peri vanhemman elementin väri */
-  padding: 5px 10px; /* Sisävälistys */
-  font-size: xx-large; /* Fonttikoko */
-  border-radius: 10px; /* Reunuspyöristys */
-}
 
-/* Ensimmäisen linkin tyyli */
-.navbar a:first-child {
-  margin-right: auto; /* Aseta ensimmäinen linkki oikeaan laitaan */
-}
-
-/* Tablettilaitteiden määritykset */
-@media screen and (max-width: 1024px) {
-  .navbar {
-    justify-content: center; /* Keskitä linkit */
+/* Adjustments for mobile, tablet, and desktop */
+/* Mobile version */
+@media screen and (max-width: 480px) {
+  /* Adjustments for mobile devices */
+  .container {
+    max-width: 100%; /* Adjust container width for mobile */
   }
-  .navbar a:first-child {
-    margin-right: 0; /* Poista marginaali ensimmäiseltä linkiltä */
-    margin-bottom: 10px; /* Lisää tilaa ensimmäisen linkin ja muiden linkkien välille */
-  }
-}
 
-/* Mobiililaitteiden määritykset */
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column; /* Aseta linkit pystysuoraan */
-    align-items: center; /* Keskitä linkit vaakasuunnassa */
+  .content-upper,
+  .content-lower {
+    padding: 30px 0; /* Adjust padding for mobile */
   }
-  .navbar a {
-    margin-bottom: 10px; /* Lisää tilaa linkkien välille */
+
+  .footer {
+    padding: 30px 10px; /* Adjust padding for mobile */
+  }
+
+  .footer a {
+    padding: 3px 8px; /* Adjust padding for mobile */
+  }
+
+  .facebook-link,
+  .instagram-link,
+  .youtube-link {
+    padding: 8px; /* Adjust padding for mobile */
+  }
+
+  .kartta {
+    width: 100%; /* Adjust map width for mobile */
+    height: 150px; /* Adjust map height for mobile */
   }
 }
 
-/* Hover-efekti kaikille linkeille */
-.navbar a:hover {
-  background-color: #505050; /* Vaihda taustaväri hover-tilassa */
-}
-
-/* Valittu elementti */
-#valittu {
-  background-color: #505050; /* Taustaväri */
-  color: white; /* Tekstin väri */
-  text-decoration: none; /* Poista korostus */
-}
-
-/* Kutsu-toimintapainike */
-.cta-button {
-  text-decoration: none; /* Poista korostus */
-  color: #fff; /* Tekstin väri */
-  padding: 10px 20px; /* Sisävälistys */
-  background-color: #ff6600; /* Taustaväri */
-  border-radius: 10px; /* Reunuspyöristys */
-  font-size: 18px; /* Fonttikoko */
-  margin-left: 10px; /* Vasen marginaali */
-}
-
-/* Sisältökontinettin määritykset */
-.container {
-  display: flex; /* Käytetään flexboxia */
-  flex-direction: column; /* Asetetaan elementit pystysuoraan */
-  align-items: center; /* Keskitetään elementit vaakasuunnassa */
-  max-width: 800px; /* Maksimileveys */
-  margin-left: auto; /* Vasen marginaali automaattisesti */
-  margin-right: auto; /* Oikea marginaali automaattisesti */
-
-  /* Tablettilaitteiden määritykset */
-  @media screen and (max-width: 1024px) {
-    padding: 0 20px; /* Lisää sisävälistystä tablettilaitteilla */
+/* Tablet version */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Adjustments for tablet devices */
+  .container {
+    max-width: 90%; /* Adjust container width for tablet */
   }
 
-  /* Mobiililaitteiden määritykset */
-  @media screen and (max-width: 768px) {
-    padding: 0 10px; /* Lisää sisävälistystä mobiililaitteilla */
+  .content-upper,
+  .content-lower {
+    padding: 40px 0; /* Adjust padding for tablet */
+  }
+
+  .footer {
+    padding: 40px 10px; /* Adjust padding for tablet */
+  }
+
+  .footer a {
+    padding: 5px 10px; /* Adjust padding for tablet */
+  }
+
+  .facebook-link,
+  .instagram-link,
+  .youtube-link {
+    padding: 10px; /* Adjust padding for tablet */
+  }
+
+  .kartta {
+    width: 80%; /* Adjust map width for tablet */
+    height: 180px; /* Adjust map height for tablet */
   }
 }
 
-/* Ylemmän sisällön tyyli */
-.content-upper {
-  background-color: rgb(255, 253, 240); /* Taustaväri */
-  padding: 50px 0; /* Sisävälistys */
-  text-align: center; /* Tekstin keskitys */
-  margin-left: auto; /* Vasen marginaali automaattisesti */
-  margin-right: auto; /* Oikea marginaali automaattisesti */
-}
+/* Desktop version */
+@media screen and (min-width: 1025px) {
+  /* Adjustments for desktop devices */
+  .container {
+    max-width: 800px; /* Reset container width for desktop */
+  }
 
-/* Alempi sisältö */
-.content-lower {
-  background-color: rgb(255, 253, 240); /* Taustaväri */
-  padding: 50px 0; /* Sisävälistys */
-  text-align: center; /* Tekstin keskitys */
-  margin-left: auto; /* Vasen marginaali automaattisesti */
-  margin-right: auto; /* Oikea marginaali automaattisesti */
-}
+  .content-upper,
+  .content-lower {
+    padding: 50px 0; /* Reset padding for desktop */
+  }
 
-/* Alatunniste */
-.footer {
-  display: flex; /* Käytetään flexboxia */
-  flex-direction: column; /* Asetetaan elementit pystysuoraan */
-  text-align: center; /* Tekstin keskitys */
-  justify-content: space-around; /* Jakaa tilaa tasaisesti elementtien välillä */
-  align-items: center; /* Keskitetään elementit vaakasuunnassa */
-  background-color: rgb(17, 177, 6); /* Taustaväri */
-  color: #fff; /* Tekstin väri */
-  padding: 50px 10px; /* Sisävälistys */
-}
+  .footer {
+    padding: 50px 10px; /* Reset padding for desktop */
+  }
 
-/* Alatunnisteen linkkien tyyli */
-.footer a {
-  text-decoration: none; /* Poista korostus */
-  color: inherit; /* Peri vanhemman elementin väri */
-  padding: 5px 10px; /* Sisävälistys */
-}
+  .footer a {
+    padding: 5px 10px; /* Reset padding for desktop */
+  }
 
-/* Hover-efekti alatunnisteen linkeille */
-.footer a:hover {
-  background-color: #505050; /* Vaihda taustaväri hover-tilassa */
-}
+  .facebook-link,
+  .instagram-link,
+  .youtube-link {
+    padding: 10px; /* Reset padding for desktop */
+  }
 
-/* Facebook-linkin tyyli */
-.facebook-link {
-  background-color: #3b5998; /* Taustaväri */
-  color: white; /* Tekstin väri */
-  padding: 10px; /* Sisävälistys */
-}
-
-/* Instagram-linkin tyyli */
-.instagram-link {
-  background-color: #C13584; /* Taustaväri */
-  color: white; /* Tekstin väri */
-  padding: 10px; /* Sisävälistys */
-}
-
-/* YouTube-linkin tyyli */
-.youtube-link {
-  background-color: #FF0000; /* Taustaväri */
-  color: white; /* Tekstin väri */
+  .kartta {
+    width: 500px; /* Reset map width for desktop */
+    height: 200px; /* Reset map height for desktop */
+  }
 }
