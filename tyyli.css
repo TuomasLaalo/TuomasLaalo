@@ -78,27 +78,7 @@
   text-align: center;
 }
 
-.center-content-main {
-  text-align: center;
-  background-color: rgb(255, 253, 240); /* Taustaväri */
-  padding: 20px; /* Lisää sisävälistystä sisällön ympärille tarvittaessa */
-}
 
-.content-row {
-  display: flex;
-  max-width: 800;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: rgb(255, 253, 240);
-}
-
-.content-row img {
-  border-radius: 10px;
-  display: block;
-  width: 50%;
-  height: auto;
-}
 
 
 .footer {
