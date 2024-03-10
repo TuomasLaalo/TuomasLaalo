@@ -188,6 +188,8 @@
 
 /* Copyright */
 .copyright {
+  position: fixed; /* Kiinteä sijoitus */
+  bottom: 0; /* Alalaitaan kiinnitetty */
   background-color: #525252; /* Background color */
   color: #ffffff; /* Text color */
   text-align: center; /* Center text */
