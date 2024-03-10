@@ -1,164 +1,149 @@
-/* Common styles for the navigation bar */
+/* Yleiset tyylit navigaatiopalkille */
 .navbar {
-  display: flex; /* Use flexbox */
-  justify-content: flex-end; /* Align items to the right */
-  background-color: rgb(17, 177, 6); /* Background color */
-  color: #fff; /* Text color */
-  padding: 50px 0; /* Padding */
+  display: flex; /* Käytetään flexboxia */
+  justify-content: flex-end; /* Linkit oikeaan laitaan */
+  background-color: rgb(17, 177, 6); /* Taustaväri */
+  color: #fff; /* Tekstin väri */
+  padding: 50px 0; /* Sisävälistys */
 }
 
-/* Styling for navigation links */
+/* Linkkien tyyli navigaatiopalkissa */
 .navbar a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color */
-  padding: 5px 10px; /* Padding */
-  font-size: xx-large; /* Font size */
-  border-radius: 10px; /* Border radius */
+  text-decoration: none; /* Poistetaan korostus */
+  color: inherit; /* Peri vanhemman elementin väri */
+  padding: 5px 10px; /* Sisävälistys */
+  font-size: xx-large; /* Fonttikoko */
+  border-radius: 10px; /* Reunuspyöristys */
 }
 
-/* Styling for the first navigation link */
+/* Ensimmäisen linkin tyyli */
 .navbar a:first-child {
-  margin-right: auto; /* Push first link to the right */
+  margin-right: auto; /* Aseta ensimmäinen linkki oikeaan laitaan */
 }
 
-/* Tablet version */
+/* Tablettilaitteiden määritykset */
 @media screen and (max-width: 1024px) {
   .navbar {
-    justify-content: center; /* Center items */
+    justify-content: center; /* Keskitä linkit */
   }
   .navbar a:first-child {
-    margin-right: 0; /* Reset margin for the first link */
-    margin-bottom: 10px; /* Add space between the first link and other links */
+    margin-right: 0; /* Poista marginaali ensimmäiseltä linkiltä */
+    margin-bottom: 10px; /* Lisää tilaa ensimmäisen linkin ja muiden linkkien välille */
   }
 }
 
-/* Mobile version */
+/* Mobiililaitteiden määritykset */
 @media screen and (max-width: 768px) {
   .navbar {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column; /* Aseta linkit pystysuoraan */
+    align-items: center; /* Keskitä linkit vaakasuunnassa */
   }
   .navbar a {
-    margin-bottom: 10px; /* Add space between links */
+    margin-bottom: 10px; /* Lisää tilaa linkkien välille */
   }
 }
 
-/* Hover effect for all navigation links */
+/* Hover-efekti kaikille linkeille */
 .navbar a:hover {
-  background-color: #505050; /* Darker background color on hover */
+  background-color: #505050; /* Vaihda taustaväri hover-tilassa */
 }
 
-/* Styling for selected items */
+/* Valittu elementti */
 #valittu {
-  background-color: #505050; /* Background color */
-  color: white; /* Text color */
-  text-decoration: none; /* Remove underline */
+  background-color: #505050; /* Taustaväri */
+  color: white; /* Tekstin väri */
+  text-decoration: none; /* Poista korostus */
 }
 
-/* Call-to-action button */
+/* Kutsu-toimintapainike */
 .cta-button {
-  text-decoration: none; /* Remove underline */
-  color: #fff; /* Text color */
-  padding: 10px 20px; /* Padding */
-  background-color: #ff6600; /* Background color */
-  border-radius: 10px; /* Border radius */
-  font-size: 18px; /* Font size */
-  margin-left: 10px; /* Margin */
+  text-decoration: none; /* Poista korostus */
+  color: #fff; /* Tekstin väri */
+  padding: 10px 20px; /* Sisävälistys */
+  background-color: #ff6600; /* Taustaväri */
+  border-radius: 10px; /* Reunuspyöristys */
+  font-size: 18px; /* Fonttikoko */
+  margin-left: 10px; /* Vasen marginaali */
 }
 
-/* Container */
+/* Sisältökontinettin määritykset */
 .container {
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  max-width: 800px; /* Maximum width */
-  margin-left: auto; /* Auto left margin */
-  margin-right: auto; /* Auto right margin */
+  display: flex; /* Käytetään flexboxia */
+  flex-direction: column; /* Asetetaan elementit pystysuoraan */
+  align-items: center; /* Keskitetään elementit vaakasuunnassa */
+  max-width: 800px; /* Maksimileveys */
+  margin-left: auto; /* Vasen marginaali automaattisesti */
+  margin-right: auto; /* Oikea marginaali automaattisesti */
+
+  /* Tablettilaitteiden määritykset */
+  @media screen and (max-width: 1024px) {
+    padding: 0 20px; /* Lisää sisävälistystä tablettilaitteilla */
+  }
+
+  /* Mobiililaitteiden määritykset */
+  @media screen and (max-width: 768px) {
+    padding: 0 10px; /* Lisää sisävälistystä mobiililaitteilla */
+  }
 }
 
-/* Upper content */
+/* Ylemmän sisällön tyyli */
 .content-upper {
-  background-color: rgb(255, 253, 240); /* Background color */
-  padding: 50px 0; /* Padding */
-  text-align: center; /* Center text */
-  margin-left: auto; /* Auto left margin */
-  margin-right: auto; /* Auto right margin */
+  background-color: rgb(255, 253, 240); /* Taustaväri */
+  padding: 50px 0; /* Sisävälistys */
+  text-align: center; /* Tekstin keskitys */
+  margin-left: auto; /* Vasen marginaali automaattisesti */
+  margin-right: auto; /* Oikea marginaali automaattisesti */
 }
 
-/* Lower content */
+/* Alempi sisältö */
 .content-lower {
-  background-color: rgb(255, 253, 240); /* Background color */
-  padding: 50px 0; /* Padding */
-  text-align: center; /* Center text */
-  margin-left: auto; /* Auto left margin */
-  margin-right: auto; /* Auto right margin */
+  background-color: rgb(255, 253, 240); /* Taustaväri */
+  padding: 50px 0; /* Sisävälistys */
+  text-align: center; /* Tekstin keskitys */
+  margin-left: auto; /* Vasen marginaali automaattisesti */
+  margin-right: auto; /* Oikea marginaali automaattisesti */
 }
 
-/* Footer */
+/* Alatunniste */
 .footer {
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack items vertically */
-  text-align: center; /* Center text */
-  justify-content: space-around; /* Distribute space around items */
-  align-items: center; /* Center items horizontally */
-  background-color: rgb(17, 177, 6); /* Background color */
-  color: #fff; /* Text color */
-  padding: 50px 10px; /* Padding */
+  display: flex; /* Käytetään flexboxia */
+  flex-direction: column; /* Asetetaan elementit pystysuoraan */
+  text-align: center; /* Tekstin keskitys */
+  justify-content: space-around; /* Jakaa tilaa tasaisesti elementtien välillä */
+  align-items: center; /* Keskitetään elementit vaakasuunnassa */
+  background-color: rgb(17, 177, 6); /* Taustaväri */
+  color: #fff; /* Tekstin väri */
+  padding: 50px 10px; /* Sisävälistys */
 }
 
-/* Styling for footer links */
+/* Alatunnisteen linkkien tyyli */
 .footer a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color */
-  padding: 5px 10px; /* Padding */
+  text-decoration: none; /* Poista korostus */
+  color: inherit; /* Peri vanhemman elementin väri */
+  padding: 5px 10px; /* Sisävälistys */
 }
 
-/* Hover effect for footer links */
+/* Hover-efekti alatunnisteen linkeille */
 .footer a:hover {
-  background-color: #505050; /* Darker background color on hover */
+  background-color: #505050; /* Vaihda taustaväri hover-tilassa */
 }
 
-/* Social media links */
+/* Facebook-linkin tyyli */
 .facebook-link {
-  background-color: #3b5998; /* Facebook color */
-  color: white; /* Text color */
-  padding: 10px; /* Padding */
+  background-color: #3b5998; /* Taustaväri */
+  color: white; /* Tekstin väri */
+  padding: 10px; /* Sisävälistys */
 }
 
+/* Instagram-linkin tyyli */
 .instagram-link {
-  background-color: #C13584; /* Instagram color */
-  color: white; /* Text color */
-  padding: 10px; /* Padding */
+  background-color: #C13584; /* Taustaväri */
+  color: white; /* Tekstin väri */
+  padding: 10px; /* Sisävälistys */
 }
 
+/* YouTube-linkin tyyli */
 .youtube-link {
-  background-color: #FF0000; /* YouTube color */
-  color: white; /* Text color */
-  padding: 10px; /* Padding */
-}
-
-/* Contact icons and section */
-#email-icon,
-#phone-icon,
-#location-icon,
-.ota-yhteyttä {
-  font-size: 24px; /* Icon font size */
-  color: rgb(17, 177, 6); /* Icon color */
-  text-align: center; /* Center text */
-}
-
-/* Map */
-.kartta {
-  width: 500px; /* Width */
-  height: 200px; /* Height */
-  border: 1px solid #ccc; /* Border */
-}
-
-/* Copyright */
-.copyright {
-  background-color: #525252; /* Background color */
-  color: #ffffff; /* Text color */
-  text-align: center; /* Center text */
-  padding: 10px 0; /* Padding */
-  width: 100%; /* Full width */
+  background-color: #FF0000; /* Taustaväri */
+  color: white; /* Tekstin väri */
 }
