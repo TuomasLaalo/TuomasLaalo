@@ -21,16 +21,6 @@
   margin-right: auto; /* Push first link to the right */
 }
 
-/* Tablet version */
-@media screen and (min-width: 600px) {
-  .navbar {
-    justify-content: center; /* Center items */
-  }
-  .navbar a:first-child {
-    margin-right: 0; /* Reset margin for the first link */
-    margin-bottom: 10px; /* Add space between the first link and other links */
-  }
-}
 
 
 /* Hover effect for all navigation links */
