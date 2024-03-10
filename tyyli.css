@@ -52,6 +52,7 @@
   text-align: center; /* Center text */
   margin-left: auto; /* Auto left margin */
   margin-right: auto; /* Auto right margin */
+  max-width: 50%; /* Maximum width */
 }
 
 /* Lower content */
@@ -61,6 +62,7 @@
   text-align: center; /* Center text */
   margin-left: auto; /* Auto left margin */
   margin-right: auto; /* Auto right margin */
+  max-width: 50%; /* Maximum width */1
 }
 
 .image {
