@@ -163,99 +163,56 @@
   width: 100%; /* Full width */
 }
 
-/* Adjustments for mobile, tablet, and desktop */
-/* Mobile version */
-@media screen and (max-width: 480px) {
-  /* Adjustments for mobile devices */
+/* Adjustments for tablet and desktop */
+@media screen and (min-width: 769px) {
+  /* Common styles for the navigation bar */
+  .navbar {
+    padding: 20px 0; /* Adjust padding */
+  }
+
+  /* Styling for navigation links */
+  .navbar a {
+    padding: 10px 20px; /* Adjust padding */
+    font-size: large; /* Adjust font size */
+  }
+
+  /* Call-to-action button */
+  .cta-button {
+    padding: 8px 16px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  /* Container */
   .container {
-    max-width: 100%; /* Adjust container width for mobile */
+    max-width: 1000px; /* Adjust maximum width */
   }
 
-  .content-upper,
+  /* Upper content */
+  .content-upper {
+    padding: 30px 0; /* Adjust padding */
+  }
+
+  /* Lower content */
   .content-lower {
-    padding: 30px 0; /* Adjust padding for mobile */
+    padding: 30px 0; /* Adjust padding */
   }
 
+  /* Footer */
   .footer {
-    padding: 30px 10px; /* Adjust padding for mobile */
+    padding: 30px 10px; /* Adjust padding */
   }
 
-  .footer a {
-    padding: 3px 8px; /* Adjust padding for mobile */
+  /* Contact icons and section */
+  #email-icon,
+  #phone-icon,
+  #location-icon,
+  .ota-yhteyttä {
+    font-size: 20px; /* Adjust icon font size */
   }
 
-  .facebook-link,
-  .instagram-link,
-  .youtube-link {
-    padding: 8px; /* Adjust padding for mobile */
-  }
-
+  /* Map */
   .kartta {
-    width: 100%; /* Adjust map width for mobile */
-    height: 150px; /* Adjust map height for mobile */
-  }
-}
-
-/* Tablet version */
-@media screen and (min-width: 481px) and (max-width: 1024px) {
-  /* Adjustments for tablet devices */
-  .container {
-    max-width: 90%; /* Adjust container width for tablet */
-  }
-
-  .content-upper,
-  .content-lower {
-    padding: 40px 0; /* Adjust padding for tablet */
-  }
-
-  .footer {
-    padding: 40px 10px; /* Adjust padding for tablet */
-  }
-
-  .footer a {
-    padding: 5px 10px; /* Adjust padding for tablet */
-  }
-
-  .facebook-link,
-  .instagram-link,
-  .youtube-link {
-    padding: 10px; /* Adjust padding for tablet */
-  }
-
-  .kartta {
-    width: 80%; /* Adjust map width for tablet */
-    height: 180px; /* Adjust map height for tablet */
-  }
-}
-
-/* Desktop version */
-@media screen and (min-width: 1025px) {
-  /* Adjustments for desktop devices */
-  .container {
-    max-width: 800px; /* Reset container width for desktop */
-  }
-
-  .content-upper,
-  .content-lower {
-    padding: 50px 0; /* Reset padding for desktop */
-  }
-
-  .footer {
-    padding: 50px 10px; /* Reset padding for desktop */
-  }
-
-  .footer a {
-    padding: 5px 10px; /* Reset padding for desktop */
-  }
-
-  .facebook-link,
-  .instagram-link,
-  .youtube-link {
-    padding: 10px; /* Reset padding for desktop */
-  }
-
-  .kartta {
-    width: 500px; /* Reset map width for desktop */
-    height: 200px; /* Reset map height for desktop */
+    width: 100%; /* Adjust width */
+    height: 300px; /* Adjust height */
   }
 }
