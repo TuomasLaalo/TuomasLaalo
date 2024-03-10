@@ -98,24 +98,25 @@
   /* Adjustments for mobile */
   .content-upper {
     display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     background-color: rgb(255, 253, 240); /* Background color */
-    
-
   }
   
   /* Lower content */
   .content-lower {
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     background-color: rgb(255, 253, 240); /* Background color */
-    
-    
   }
+}
   
   .navbar {
     flex-direction: column; /* Arrange items vertically */
     align-items: center; /* Center items horizontally */
   }
-}
+
 
   /* Styling for navigation links on mobile */
   .navbar a {
