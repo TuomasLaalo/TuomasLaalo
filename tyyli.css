@@ -71,16 +71,22 @@
   .navbar {
     justify-content: flex-end; /* Align items to the left */
   }
+
+  img {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+  }
 }
+
 
 /* Media query for MOBILE screens */
 @media only screen and (max-width: 600px) {
   /* Adjustments for mobile */
   .navbar {
-    display: flex; /* Arrange items vertically */
-    align-items: auto; 
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
   }
-
+}
 
   /* Styling for navigation links on mobile */
   .navbar a {
@@ -92,7 +98,7 @@
     max-width: 100%; /* Set maximum width to 100% */
     height: auto; /* Maintain aspect ratio */
   }
-}
+
 
 
 
