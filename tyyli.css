@@ -133,6 +133,7 @@
   background-color: rgb(17, 177, 6); /* Background color */
   color: #fff; /* Text color */
   padding: 50px 10px; /* Padding */
+  bottom: 0;
 }
 
 /* Styling for footer links */
