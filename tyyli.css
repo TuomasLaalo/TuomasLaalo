@@ -98,10 +98,7 @@
   /* Adjustments for mobile */
 
 
-  .content-container {
- 
-    background-color: rgb(255, 253, 240); /* Background color */
-  }
+  
   .content-upper {
     display: flex; /* Use flexbox */
     justify-content: center; /* Center horizontally */
