@@ -41,6 +41,9 @@
   .navbar a {
     margin-bottom: 10px; /* Add space between links */
   }
+  .navbar a:first-child {
+    margin-right: 0; /* Reset margin for the first link */
+    margin-bottom: 10px; /* Add space between the first link and other links */
 }
 
 /* Hover effect for all navigation links */
