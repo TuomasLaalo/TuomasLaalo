@@ -121,6 +121,15 @@
   align-items: center; /* Center items horizontally */
 }
 
+.content-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  max-width: 1000px; /* Määritä maksimileveys */
+  width: 100%; /* Täytä käytettävissä oleva tila */
+  margin: 0 auto; /* Keskita elementti */
+  background-color: rgb(255, 253, 240);
+}
 
 .content-upper {
   display: flex;
