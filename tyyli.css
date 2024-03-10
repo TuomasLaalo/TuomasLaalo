@@ -1,4 +1,9 @@
 /* Common styles for the navigation bar */
+.body {
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Use Arial font */
+}
+
 .navbar {
   display: flex; /* Use flexbox */
   justify-content: flex-end; /* Align items to the right */
@@ -99,6 +104,7 @@
 
   
   .navbar {
+    display: flex;
     flex-direction: column; /* Arrange items vertically */
     align-items: center; /* Center items horizontally */
   }
