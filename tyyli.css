@@ -121,6 +121,29 @@
   align-items: center; /* Center items horizontally */
 }
 
+
+.content-upper {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  max-width: 1000px; /* Määritä maksimileveys */
+  width: 100%; /* Täytä käytettävissä oleva tila */
+  margin: 0 auto; /* Keskita elementti */
+  background-color: rgb(255, 253, 240);
+}
+
+/* Lower content */
+.content-lower {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  max-width: 1000px; /* Määritä maksimileveys */
+  width: 100%; /* Täytä käytettävissä oleva tila */
+  margin: 0 auto; /* Keskita elementti */
+  background-color: rgb(255, 253, 240);
+}
+
+
   img {
     max-width: 100%; /* Set maximum width to 100% */
     height: auto; /* Maintain aspect ratio */
