@@ -22,7 +22,6 @@
 }
 
 
-
 /* Hover effect for all navigation links */
 .navbar a:hover {
   background-color: #505050; /* Darker background color on hover */
@@ -63,6 +62,53 @@
   margin-left: auto; /* Auto left margin */
   margin-right: auto; /* Auto right margin */
 }
+
+
+/* Mobiilikoko.css */
+@media screen and (max-width: 600px) {
+  /* Lisää mobiilinäkymän määritykset tähän */
+}
+
+.navbar a:first-child {
+  margin-right: 0; /* Reset margin-right */
+  margin-left: auto; /* Push first link to the left */
+}
+
+
+
+
+
+
+
+/* Tablettikoko.css */
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+  /* Lisää tablettinäkymän määritykset tähän */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Työpöytäkoko.css */
+@media screen and (min-width: 1200px) {
+  /* Lisää työpöytänäkymän määritykset tähän */
+}
+
+
+
+
+
+
+
+
 
 
 /* Footer */
@@ -116,6 +162,7 @@
   font-size: 24px; /* Icon font size */
   color: rgb(17, 177, 6); /* Icon color */
   text-align: center; /* Center text */
+  background-color: rgb(255, 253, 240); /* Background color */
 }
 
 /* Map */
