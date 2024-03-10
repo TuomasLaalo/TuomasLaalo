@@ -44,6 +44,11 @@
   font-size: 18px; /* Font size */
   margin-left: 10px; /* Margin */
 }
+.content-container {
+ 
+  background-color: rgb(255, 253, 240); /* Background color */
+}
+
 
 /* Upper content */
 .content-upper {
