@@ -86,7 +86,15 @@
   .navbar a {
     margin-bottom: 10px; /* Add some space between links */
   }
+
+
+  img {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+  }
 }
+
+
 
 
 
