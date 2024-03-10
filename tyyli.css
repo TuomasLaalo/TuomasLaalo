@@ -98,8 +98,10 @@
     background-color: rgb(255, 253, 240); /* Background color */
     padding: 50px 0; /* Padding */
     text-align: center; /* Center text */
-    margin-left: auto; /* Auto left margin */
-    margin-right: auto; /* Auto right margin */
+    margin: 0;
+    width: 100%;
+
+    
     
   }
   
@@ -108,8 +110,8 @@
     background-color: rgb(255, 253, 240); /* Background color */
     padding: 50px 0; /* Padding */
     text-align: center; /* Center text */
-    margin-left: auto; /* Auto left margin */
-    margin-right: auto; /* Auto right margin */
+    margin : 0;
+    width: 100%;
     
   }
   
