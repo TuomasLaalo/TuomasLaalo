@@ -93,6 +93,11 @@
     margin-bottom: 10px; /* Add some space between links */
   }
 
+  /* Styling for the first navigation link */
+.navbar a:first-child {
+  flex-direction: column; /* Push first link to the right */
+  align-items: center; /* Center items horizontally */
+}
 
   img {
     max-width: 100%; /* Set maximum width to 100% */
