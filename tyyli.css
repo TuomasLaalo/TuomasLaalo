@@ -144,8 +144,7 @@
 
 /* Map */
 .kartta {
- display: flex; /* Use flexbox */
-  justify-content: center; /* Center items horizontally */
+ justify-content: center; /* Center items horizontally */
   margin-top: 20px; /* Margin */
   width: 500px; /* Width */
   height: 200px; /* Height */
