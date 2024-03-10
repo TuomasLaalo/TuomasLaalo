@@ -78,7 +78,7 @@
   /* Adjustments for mobile */
   .navbar {
     display: flex; /* Arrange items vertically */
-    align-items: center; ; /* Align items to the left */
+    align-items: auto; 
   }
 
 
