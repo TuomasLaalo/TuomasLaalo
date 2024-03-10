@@ -96,6 +96,12 @@
 /* Media query for MOBILE screens */
 @media only screen and (max-width: 600px) {
   /* Adjustments for mobile */
+
+
+  .content-container {
+ 
+    background-color: rgb(255, 253, 240); /* Background color */
+  }
   .content-upper {
     display: flex; /* Use flexbox */
     justify-content: center; /* Center horizontally */
