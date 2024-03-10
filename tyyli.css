@@ -99,21 +99,15 @@
   .content-upper {
     display: flex; /* Use flexbox */
     background-color: rgb(255, 253, 240); /* Background color */
-    padding: 50px 0; /* Padding */
-    text-align: justify; /* Center text */
-    justify-content: center;1
+    
 
-    
-    
   }
   
   /* Lower content */
   .content-lower {
     display: flex;
     background-color: rgb(255, 253, 240); /* Background color */
-    padding: 50px 0; /* Padding */
-    text-align: justify; /* Center text */
-    justify-content: center;
+    
     
   }
   
