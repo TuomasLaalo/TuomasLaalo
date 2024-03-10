@@ -94,6 +94,25 @@
 /* Media query for MOBILE screens */
 @media only screen and (max-width: 600px) {
   /* Adjustments for mobile */
+  .content-upper {
+    background-color: rgb(255, 253, 240); /* Background color */
+    padding: 50px 0; /* Padding */
+    text-align: center; /* Center text */
+    margin-left: auto; /* Auto left margin */
+    margin-right: auto; /* Auto right margin */
+    
+  }
+  
+  /* Lower content */
+  .content-lower {
+    background-color: rgb(255, 253, 240); /* Background color */
+    padding: 50px 0; /* Padding */
+    text-align: center; /* Center text */
+    margin-left: auto; /* Auto left margin */
+    margin-right: auto; /* Auto right margin */
+    
+  }
+  
   .navbar {
     flex-direction: column; /* Arrange items vertically */
     align-items: center; /* Center items horizontally */
@@ -107,7 +126,7 @@
 
   /* Styling for the first navigation link */
 .navbar a:first-child {
-  flex-direction: column; /* Push first link to the right */
+  flex-direction: auto; /* 
   align-items: center; /* Center items horizontally */
 }
 
