@@ -70,16 +70,6 @@
   margin-left: 10px; /* Margin */
 }
 
-/* Container */
-.container {
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  max-width: 800px; /* Maximum width */
-  margin-left: auto; /* Auto left margin */
-  margin-right: auto; /* Auto right margin */
-}
-
 /* Upper content */
 .content-upper {
   background-color: rgb(255, 253, 240); /* Background color */
@@ -97,34 +87,6 @@
   margin-left: auto; /* Auto left margin */
   margin-right: auto; /* Auto right margin */
 }
-
-/*tablettikoko*/
-@media screen and (min-width: 600px) {
-  .container {
-    flex-direction: row; /* Stack items horizontally */
-    justify-content: space-between; /* Distribute space around items */
-  }
-  .content-upper {
-    width: 48%; /* Width */
-  }
-  .content-lower {
-    width: 48%; /* Width */
-  }
-}
-
-/*mobiilikoko*/
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column; /* Stack items vertically */
-  }
-  .content-upper {
-    width: 100%; /* Full width */
-  }
-  .content-lower {
-    width: 100%; /* Full width */
-  }
-}
-
 
 
 /* Footer */
