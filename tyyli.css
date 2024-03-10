@@ -63,6 +63,11 @@
   margin-right: auto; /* Auto right margin */
 }
 
+.image {
+  background-color: rgb(255, 253, 240);
+  margin: center;
+}
+
 
 
 /* Media query for TABLET screens */
