@@ -64,51 +64,23 @@
 }
 
 
-/* Mobiilikoko.css */
-/* Common styles for the navigation bar */
-.navbar {
-  display: flex; /* Use flexbox */
-  justify-content: flex-end; /* Align items to the right */
-  align-items: center; /* Center items vertically */
-  background-color: rgb(17, 177, 6); /* Background color */
-  color: #fff; /* Text color */
-  padding: 20px; /* Padding */
-}
 
-/* Styling for navigation links */
-.navbar a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit color */
-  padding: 10px; /* Padding */
-  font-size: large; /* Font size */
-  border-radius: 5px; /* Border radius */
-}
-
-/* Styling for the first navigation link */
-.navbar a:first-child {
-  margin-right: auto; /* Push first link to the right */
-}
-
-/* Media query for tablet screens */
+/* Media query for TABLET screens */
 @media only screen and (max-width: 1024px) {
   /* Adjustments for tablet */
   .navbar {
-    justify-content: flex-start; /* Align items to the left */
-  }
-
-  /* Styling for the first navigation link on tablet */
-  .navbar a:first-child {
-    margin-right: 10px; /* Add some space to the right */
+    justify-content: flex-end; /* Align items to the left */
   }
 }
 
-/* Media query for mobile screens */
+/* Media query for MOBILE screens */
 @media only screen and (max-width: 600px) {
   /* Adjustments for mobile */
   .navbar {
-    flex-direction: column; /* Arrange items vertically */
-    align-items: flex-start; /* Align items to the left */
+    display: flex; /* Arrange items vertically */
+    align-items: center; ; /* Align items to the left */
   }
+
 
   /* Styling for navigation links on mobile */
   .navbar a {
@@ -117,32 +89,6 @@
 }
 
 
-
-
-
-
-
-/* Tablettikoko.css */
-@media screen and (min-width: 601px) and (max-width: 1199px) {
-  /* Lisää tablettinäkymän määritykset tähän */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Työpöytäkoko.css */
-@media screen and (min-width: 1200px) {
-  /* Lisää työpöytänäkymän määritykset tähän */
-}
 
 
 
