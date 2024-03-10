@@ -1,7 +1,5 @@
 /* Common styles for the navigation bar */
-.body {
-  font-family: Arial, sans-serif; /* Use Arial font */
-}
+
 
 .navbar {
   display: flex; /* Use flexbox */
