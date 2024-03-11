@@ -72,11 +72,12 @@
   max-width: 50%; /* Maximum width */
 }
 
+/* Styling for images */
 .image {
-  background-color: rgb(255, 253, 240);
-  margin: auto;
-  display: block;
-  text-align: center;
+  background-color: rgb(255, 253, 240); /* Background color */
+  margin: auto; /* Center the image horizontally */
+  display: block; /* Display as block element */
+  text-align: center; /* Center the image vertically */
 }
 
 
@@ -155,15 +156,6 @@
     height: auto; /* Maintain aspect ratio */
   }
 }
-
-
-
-
-
-
-
-
-
 
 
 
