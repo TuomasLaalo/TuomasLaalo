@@ -116,8 +116,7 @@
   }
 
   /* Styling for the first navigation link */
-.navbar a:first-child {
-  flex-direction: auto; /* 
+.navbar a:first-child { 
   align-items: center; /* Center items horizontally */
 }
 
