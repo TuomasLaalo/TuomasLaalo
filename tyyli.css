@@ -161,8 +161,8 @@
   .kartta {
     justify-content: center; /* Center items horizontally */
      margin-top: 20px; /* Margin */
-     width: auto; /* Full width on smaller screens */
-     height: auto; /* Auto height to maintain aspect ratio */
+     width: 200px; /* Full width on smaller screens */
+     height: 200px; /* Auto height to maintain aspect ratio */
      border: 1px solid #ccc; /* Border */
    }
 
