@@ -157,15 +157,6 @@
     max-width: 100%; /* Set maximum width to 100% */
     height: auto; /* Maintain aspect ratio */
   }
-  
-  .kartta {
-    justify-content: center; /* Center items horizontally */
-     margin-top: 20px; /* Margin */
-     width: 200px; /* Full width on smaller screens */
-     height: 200px; /* Auto height to maintain aspect ratio */
-     border: 1px solid #ccc; /* Border */
-   }
-
 
 }
 
@@ -231,7 +222,7 @@
 .kartta {
  justify-content: center; /* Center items horizontally */
   margin-top: 20px; /* Margin */
-  width: 500px; /* Width */
+  width: 350px; /* Width */
   height: 200px; /* Height */
   border: 1px solid #ccc; /* Border */
 }
