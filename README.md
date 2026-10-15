@@ -16,7 +16,7 @@ Business IT student at Haaga-Helia University of Applied Sciences · Helsinki, F
 
 ### 01 / About
 
-My interests span software engineering, data, integrations, cloud infrastructure, and AI-assisted development. I enjoy turning an idea into something usable — from mobile applications to API experiments — and learning the engineering decisions behind the result.
+My interests span software engineering, data, integrations, cloud infrastructure, and AI-assisted development. I enjoy turning an idea into something usable from mobile applications to API experiments and learning the engineering decisions behind the result.
 
 ### 02 / Tools & technologies
 
