@@ -1,4 +1,6 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0D1117,100:5865F2&text=Tuomas%20Laalo&fontColor=ffffff&fontSize=45&animation=fadeIn" width="100%" />
+</p>
 
 <!--
 **TuomasLaalo/TuomasLaalo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
