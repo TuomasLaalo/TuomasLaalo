@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Tuomas Laalo — Software, Data, Cloud, AI">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b2e37"/><stop offset=".5" stop-color="#15484d"/><stop offset="1" stop-color="#132f4d"/></linearGradient><linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6de0bd" stop-opacity=".25"/><stop offset="1" stop-color="#6de0bd" stop-opacity="0"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b4f0db" stroke-opacity=".075" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="320" rx="15" fill="url(#bg)"/><rect width="1200" height="320" rx="15" fill="url(#grid)"/><circle cx="1020" cy="90" r="250" fill="url(#glow)"/>
+<path d="M830 0 1200 0 1200 320 955 320Z" fill="#98ffe0" opacity=".035"/><path d="m850 80 115-60 115 60v130l-115 60-115-60z" fill="none" stroke="#8ce4cb" stroke-opacity=".26" stroke-width="2"/><path d="m965 20v250M850 80l230 130M1080 80 850 210" stroke="#8ce4cb" stroke-opacity=".12" stroke-width="2"/>
+<text x="80" y="78" fill="#8ce4cb" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="5">PORTFOLIO / GITHUB</text>
+<text x="76" y="183" fill="#f5faf9" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="74" letter-spacing="-2">Tuomas Laalo</text>
+<rect x="80" y="209" width="54" height="4" rx="2" fill="#6de0bd"/>
+<text x="80" y="263" fill="#d0e9e4" font-family="Arial,Helvetica,sans-serif" font-size="23" letter-spacing="1.4">SOFTWARE  /  DATA  /  CLOUD  /  AI</text>
+</svg>
